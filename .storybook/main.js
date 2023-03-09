@@ -3,6 +3,7 @@ const path = require('node:path');
 module.exports = {
   stories: ['../packages/**/*.stories.mdx', '../stories/**/*.stories.mdx'],
   addons: [
+    '@storybook/addon-a11y',
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
